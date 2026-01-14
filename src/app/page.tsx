@@ -40,8 +40,8 @@ const features = [
 
 export default function LandingPage() {
   return (
-    <div className="bg-background text-foreground min-h-screen">
-      <div className="relative min-h-screen flex flex-col">
+    <div className="bg-background text-foreground min-h-screen flex flex-col">
+      <div className="relative flex-1 flex flex-col">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -89,7 +89,7 @@ export default function LandingPage() {
             <h2 className="text-3xl md:text-4xl font-bold font-headline">A New Standard in Personal Safety</h2>
             <p className="mt-2 text-muted-foreground">Powered by cutting-edge AI and real-time data.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="bg-background/50 rounded-lg p-6 flex flex-col items-start text-left hover:bg-background/70 transition-colors duration-300 hover:shadow-xl">
                 <div className="bg-primary/10 text-primary p-3 rounded-full mb-4">
