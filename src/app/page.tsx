@@ -41,7 +41,7 @@ const features = [
 export default function LandingPage() {
   return (
     <div className="bg-background text-foreground min-h-screen flex flex-col">
-      <div className="relative flex-1 flex flex-col">
+      <div className="relative flex flex-col flex-1">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
