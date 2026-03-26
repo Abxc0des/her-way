@@ -38,3 +38,4 @@ yarn-error.log*
 .genkit/log
 .genkit/mutex.lock
 node_modules/
+myproject.zip
