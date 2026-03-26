@@ -37,3 +37,4 @@ yarn-error.log*
 .genkit/cache
 .genkit/log
 .genkit/mutex.lock
+node_modules/
