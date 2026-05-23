@@ -1,4 +1,9 @@
-name: Deploy to GitHub Pages
+- name: Install & Build
+        run: |
+          npm install
+          npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
 
 on:
   push:
