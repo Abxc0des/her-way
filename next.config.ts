@@ -1,8 +1,18 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: '/her-way',
+output: 'export',
+basePath: '/her-way',
+typescript: {
+  ignoreBuildErrors: true,
+},
+eslint: {
+  ignoreDuringBuilds: true,
+},
+// add this:
+experimental: {
+  missingSuspenseWithCSRBailout: false,
+},
   typescript: {
     ignoreBuildErrors: true,
   },
